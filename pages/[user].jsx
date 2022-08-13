@@ -10,7 +10,7 @@ const User = () => {
     )
     return (
         <div>
-            Hello {user.name}
+            Hello {user?.name}
         </div>
     );
 };
